@@ -43,7 +43,7 @@ primo/
 ### Prerequisites
 
 - [devenv](https://devenv.sh/) or [Dev Container](https://containers.dev/supporting) compatible development environment (eg. Visual Studio Code)
-
+  
 ### Getting Started
 
 1. **Clone the repository**
@@ -58,6 +58,10 @@ primo/
    ```bash
    npm install
    ```
+2.5	**Add git-hooks**
+```bash
+  devenv inputs add git-hooks github:cachix/git-hooks.nix
+  ```
 
 3. **Start the development server**
 
